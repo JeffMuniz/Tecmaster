@@ -50,7 +50,7 @@ jobs:
           name: .net-app
       
       - name: Login to Azure
-        uses: azure/login@v1
+        uses: azure/login@v2
         with:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_49F09A81D80940D2818B7743825868F9 }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_3AD71F0019084CEB8230168B4AD975BD }}
